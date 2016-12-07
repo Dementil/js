@@ -8,12 +8,15 @@ console.log('Плащадь параллелипипеда равна ', result)
 console.log('сравнение:', b > c ? 'ширина больше высоты' : 'высота больше ширины')
 
 //Задание 2
-var Su = 1000, Agr = 15, Bgr25, Sgr, result;
-Sgr = 15 * 25;
-result = Su % Sgr;
+var parcelS= 10, a = 15, b = 25, sBed, parcelM, result;
+parcelM = parcelS*100;
+sBed = 15 * 25;
+result = parcelM % sBed;
 console.log('осталось не занято ',result,'м2');
 
 //Задание 3
-var Sb = 1500, Ss = 600, result;
-result = 1500 - 600;
+var sBigDm = 15, sSmall = 600, sBigSm, result;
+
+sBigSm=sBigDm*10*10;
+result = sBigSm - 600;
 console.log('площадь кольца ',result);
