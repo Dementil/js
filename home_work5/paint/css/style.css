@@ -1,0 +1,38 @@
+﻿body{
+	margin: 0;
+	padding: 0;
+}
+
+
+#header{
+	border-bottom: 0.5em solid #0009b8;
+	background-color: #0070e0;
+	color: #a0ffff;
+	padding-left: 4em;
+	padding-bottom: 2em;
+}
+
+canvas{
+	background-color: #c0fffb;
+	width: 100%;
+}
+
+.but{
+	height: 2em;
+	border-radius: 1em;
+	margin-left: 2em;
+	border-color: #FFFFFF;
+	border: 0.03em solid #000000;
+	color: #0000FF;
+}
+
+
+.color-button{
+	height: 2em;
+	width: 2em;
+	padding: 0.5em;
+	margin-right: 1em;
+	border-color: #FFFFFF;
+	border: 0.03em solid #000000;
+	border-radius: 1.5em; 
+}
